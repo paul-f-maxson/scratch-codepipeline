@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/paulmaxson/.nvm/versions/node/v14.8.0/bin/node /Users/paulmaxson/.nvm/versions/node/v14.8.0/bin/yarn set version from sources
+
+PATH: 
+  /Users/paulmaxson/.nvm/versions/node/v14.8.0/bin:/Users/paulmaxson/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Release not found: from
+      at /Users/paulmaxson/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:89857:17
+      at Generator.next (<anonymous>)
+      at step (/Users/paulmaxson/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/paulmaxson/.nvm/versions/node/v14.8.0/lib/node_modules/yarn/lib/cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+npm manifest: 
+  {
+    "name": "scratch-codepipeline",
+    "version": "0.1.0",
+    "bin": {
+      "scratch-codepipeline": "bin/scratch-codepipeline.js"
+    },
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "test": "jest",
+      "cdk": "cdk"
+    },
+    "devDependencies": {
+      "@aws-cdk/assert": "1.98.0",
+      "@types/jest": "^26.0.10",
+      "@types/node": "10.17.27",
+      "aws-cdk": "1.98.0",
+      "jest": "^26.4.2",
+      "ts-jest": "^26.2.0",
+      "ts-node": "^9.0.0",
+      "typescript": "~3.9.7"
+    },
+    "dependencies": {
+      "@aws-cdk/core": "1.98.0",
+      "source-map-support": "^0.5.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
