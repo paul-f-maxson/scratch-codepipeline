@@ -1,0 +1,11 @@
+{
+  "name": "lambda",
+  "private": true,
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
